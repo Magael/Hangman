@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  border: solid 1px black;
+  border: solid 1px #fdf1f1;
   text-align: center;
   background-color: #f5bfbf;
 }
@@ -27,7 +27,7 @@ h1 {
   padding: 0;
   max-width: 900px;
   text-align: center;
-  color: white;
+  color: #fdf1f1;
 }
 #alphabet:after {
   content: "";
@@ -42,19 +42,19 @@ h1 {
   width: 35px;
   height: 30px;
   padding-top: 10px;
-  background: white;
+  background: #fdf1f1;
   background-color: #f5bfbf;
   cursor: pointer;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   -khtml-border-radius: 5px;
-  border: solid 1px white;
+  border: solid 1px #fdf1f1;
 }
 #alphabet li:hover {
   background-color: #f1cece;
-  border: solid 1px white;
-  color: white;
+  border: solid 1px #fdf1f1;
+  color: #fdf1f1;
 }
 
 #my-word {
@@ -104,8 +104,8 @@ button {
   border-radius: 5px;
   -khtml-border-radius: 5px;
   background-color: #f5bfbf;
-  color: white;
-  border: solid 1px white;
+  color: #fdf1f1;
+  border: solid 1px #fdf1f1;
   text-decoration: none;
   cursor: pointer;
   font-size: 1.2em;
@@ -119,8 +119,8 @@ button:hover {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #f1cece;
-  border: solid 1px white;
-  color: white;
+  border: solid 1px #fdf1f1;
+  color: #fdf1f1;
 }
 
 @media (max-width: 767px) {

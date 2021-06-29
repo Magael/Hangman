@@ -1,5 +1,8 @@
 $myFont: 'Roboto', sans-serif;
 $myFontSize: 25px;
+$myBackground:#f1cece;
+$myboxcolor: #f5bfbf;
+$mycolor: rgb(253, 241, 241);
 
 @mixin transition {
   -webkit-transition: all 0.5s ease-in-out;
@@ -55,7 +58,7 @@ body {
   margin:auto;
   width: 50%;
   padding:10px;
-  background-color:#f1cece;
+  background-color:$myBackground;
   
 }
 .container {
@@ -65,9 +68,9 @@ body {
   
 }
 h1{
-  border:solid 1px black;
+  border:solid 1px $mycolor;
   text-align: center;
-  background-color: #f5bfbf;
+  background-color: $myboxcolor;
   }
 
 #alphabet {
@@ -76,7 +79,7 @@ h1{
   padding:0;
   max-width:900px;
   text-align: center;
-  color:white;
+  color:$mycolor;
 }
 
 #alphabet li {
@@ -86,16 +89,16 @@ h1{
   width:35px;
   height:30px;
   padding-top:10px;
-  background:white;
-  background-color: #f5bfbf;
+  background: $mycolor;
+  background-color: $myboxcolor;
   cursor:pointer;
   @include corners(5px);
-  border: solid 1px white;
+  border: solid 1px $mycolor;
     
     &:hover{
-      background-color:#f1cece;
-      border: solid 1px white;
-      color:white;
+      background-color:$myBackground;
+      border: solid 1px $mycolor;
+      color: $mycolor;
     }
 }
 
@@ -133,9 +136,9 @@ h1{
 
 button{
   @include corners (5px);
-  background-color: #f5bfbf;
-  color:white;
-  border: solid 1px white;
+  background-color: $myboxcolor;
+  color:$mycolor;
+  border: solid 1px $mycolor;
   text-decoration:none;
   cursor:pointer;
   font-size:1.2em;
@@ -146,9 +149,9 @@ button{
   
     &:hover{
       @include transition;
-      background-color:#f1cece;
-      border: solid 1px white;
-      color:white;
+      background-color:$myBackground;
+      border: solid 1px $mycolor;
+      color: $mycolor;
       
     }
 }
@@ -167,13 +170,14 @@ button{
 #images{
   float:right;
   position: fixed;
-  
   bottom: 35%;
   left: 75%
 }
+
 #lol{
     visibility:hidden
   }
+
 #sad{
   visibility: hidden;
 }
