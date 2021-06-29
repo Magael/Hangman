@@ -1,3 +1,6 @@
+https://magael.github.io/Hangman/Hangman.html
+
+
 # Hangman
 
 Type of challenge: consolidation
