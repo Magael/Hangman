@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Hangman" content="putting JS into practice">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Elsa Magalhaes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hangman</title>
+        <link rel="stylesheet" href="Assets/css/style.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Hangman</h1>
+            <p>Please choose a letter from the alphabet.</p>
+            
+                <div id="buttons"> <!--Alphabet-->
+                </div>
+            <h2>Countries</h2><!--word to guess-->
+            <div id= "secret">
+            </div>
+            <h2>Lives</h2><!--lives remaining-->
+            <p id = "lives"></p>
+            <div id ="images">
+                <img id="lol" src = "Assets/img/Lol.svg" width="80" height="80"/>
+                <img id = "sad" src = "Assets/img/Sad.svg" width="80" height="80"/>
+            </div>
+            <div class = "play">
+                <button id= "again">Play Again</button><!--play again-->
+                <button onclick="exit()">Exit</button><!--Exit game-->
+            </div>
+        </div>
+            
+              
+              
+    <script src="/Assets/JS/script.js"></script>
+    </body>
+</html>
