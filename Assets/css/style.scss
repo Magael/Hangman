@@ -1,8 +1,8 @@
 $myFont: 'Roboto', sans-serif;
 $myFontSize: 25px;
 $myBackground:#f1cece;
-$myboxcolor: #f5bfbf;
-$mycolor: rgb(253, 241, 241);
+$myboxcolor: #D4B4B4;
+$mycolor: #6E5D5D;
 
 @mixin transition {
   -webkit-transition: all 0.5s ease-in-out;
@@ -59,6 +59,7 @@ body {
   width: 50%;
   padding:10px;
   background-color:$myBackground;
+  color: $mycolor;
   
 }
 .container {

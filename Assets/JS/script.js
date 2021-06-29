@@ -103,7 +103,7 @@ window.onload = function () {
         "republic of congo","cook islands","costa rica","côte d'ivoire","croatia","cuba","cyprus","czech republic","denmark","djibouti","dominica","dominican republic",
         "east timor","ecuador","egypt","el salvador","equatorial guinea","eritrea","estonie","ethiopia","falkland islands","faroe islands","fiji","finland","france","french guiana","franch polynesia","french southern territories","gabon", "gambia", "georgia", "germany","ghana",
         "gibraltar","greece","greenland","grenada","guadelupe","guam","guatemala", "guinea", "guinea-bissau","guyana","haiti","holy see","honduras", "hong kong", "hungary", "iceland", "india","indonesia","iran","iraq", "ireland", "israel", "italy", "ivory coast", "jamaica", "japan","jordan",
-        
+
 
     ] //words to guess
 
