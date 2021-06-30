@@ -108,7 +108,7 @@ window.onload = function () {
     ] //words to guess
 
 
-    //chosenCategory = countries[Math.floor(Math.random() * countries.length)];
+   
     word = countries[Math.floor(Math.random() * countries.length)];
     word = word.replace(/\s/g, "-");
     console.log(word);
@@ -135,7 +135,7 @@ window.onload = function () {
     letters.parentNode.removeChild(letters);
     document.getElementById("sad").style.visibility = "hidden";
     document.getElementById("lol").style.visibility = "hidden";
-    //context.clearRect(0, 0, 400, 400);
+   
     play();
   }
       
