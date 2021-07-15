@@ -50,6 +50,7 @@ $mycolor: #6E5D5D;
 }
 
 body {
+  display:flex;
   font-family: $myFont;
   font-size: $myFontSize;
   align-content: center;
