@@ -1,5 +1,7 @@
 https://magael.github.io/Hangman/Hangman.html
 
+##Project done during BECODE learning process
+
 
 # Hangman
 
